@@ -1,88 +1,130 @@
 <!DOCTYPE html>
 
 <head>
-	<title>Medija</title>
- <meta charset="utf-8">
+  <title>Medija</title>
+  <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-   <link href="CSS/Medija.css" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+  />
+  <link href="CSS/Medija.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
- <script src="Javascript/Medija.js"></script>
-	<link rel="shortcut icon" type="image/png" href="Slike/11.png" >
-
+  <script src="Javascript/Medija.js"></script>
+  <link rel="shortcut icon" type="image/png" href="Slike/11.png" />
 </head>
 <div class="navigacija">
-	<a href="Naslovna.html" class="logo-vrh"><img src="Slike/14.png" class="logo-top" alt="logo"></a>
-	<ul class="header-list1" id="navbar">
-		<li><a href="Naslovna.html" class="items1">Naslovna</a></li>
-		<li><a href="O meni.html" class="items1">O meni</a></li>
-		<li><a href="Galerija.html" class="items1">Galerija</a></li>
-		<li><a href="Medija.html" class="items1">Medija</a></li>
-		<li><a href="Seminarski.html" class="items1">Seminarski</a></li>
-		<li><a href="Kontakt.html" class="items1">Kontakt</a></li>
-		</ul>
-	</div>
+  <a href="Naslovna.html" class="logo-vrh"
+    ><img src="Slike/14.png" class="logo-top" alt="logo"
+  /></a>
+  <ul class="header-list1" id="navbar">
+    <li><a href="Naslovna.html" class="items1">Naslovna</a></li>
+    <li><a href="O meni.html" class="items1">O meni</a></li>
+    <li><a href="Galerija.html" class="items1">Galerija</a></li>
+    <li><a href="Medija.html" class="items1">Medija</a></li>
+    <li><a href="Seminarski.html" class="items1">Seminarski</a></li>
+    <li><a href="Kontakt.html" class="items1">Kontakt</a></li>
+  </ul>
+</div>
 <div class="medija pozadina" id="medium">
-	<div class="klipmuzika">
-		<div class="klip" id="klip">
-			<h1 class="tekstklip">Pogledajte video o Formuli 1</h1>
-			<video  id="vid" width="600" controls>
-  <source id="nm1" src="Datoteke/Road trip.mp4" type="video/mp4">
-  <source id="nm2" src="Datoteke/Road trip.ogg" type="video/ogg">
-  Your browser does not support HTML5 video.
-</video>
-<div class="dugmad1">
-<button id="a1" class="preuzmite">Pusti/pauziraj</button><button id="a2" class="preuzmite">Zvuk na 50% ili 100%</button><button id="a3" class="preuzmite">Širina 300px</button><button id="a4" class="preuzmite">Dužina videa</button>
-</div>
-<a id="preuzeti" href="Datoteke/Road trip.mp4" alt="broken link" download="formula 1.mp4">
-<button class="preuzmite"><i class="fa fa-download"></i>&nbsp;&nbsp;Preuzmite</button>
-</a>
-		</div>
-		<div class="muzika" id="muzika">
-			<h1 class="tekstmuzika">Poslušajte Shahmen Mark - Infinity Bass</h1>
-			<audio id="aud" controls>
-		    <source src="Datoteke/SHAHMEN MARK.mp3" type="audio/mp3">
-  			<source src="Datoteke/SHAHMEN MARK.ogg" type="audio/ogg">
-Your browser does not support the audio element.
-</audio>
-<div class="dugmad2">
-<button id="b1" class="pp">Pusti</button><button id="b2" class="pp">Pauziraj</button><button id="b3" class="pp">Zvuk na 50% ili 100%</button><button id="b4" class="pp">Dužina</button>
-</div>
-<a href="Datoteke/SHAHMEN MARK.mp3" alt="broken link" download="SHAHMEN MARK.mp3">
-<button class="preuzmite"><i class="fa fa-download"></i>&nbsp;&nbsp;Preuzmite</button>
-</a>
-		</div>
-	</div>
+  <div class="klipmuzika">
+    <div class="klip" id="klip">
+      <h1 class="tekstklip">Pogledajte video o Formuli 1</h1>
+      <video id="vid" width="600" controls>
+        <source id="nm1" src="Datoteke/Road trip.mp4" type="video/mp4" />
+        <source id="nm2" src="Datoteke/Road trip.ogg" type="video/ogg" />
+        Your browser does not support HTML5 video.
+      </video>
+      <div class="dugmad1">
+        <button id="a1" class="preuzmite">Pusti/pauziraj</button
+        ><button id="a2" class="preuzmite">Zvuk na 50% ili 100%</button
+        ><button id="a3" class="preuzmite">Širina 300px</button
+        ><button id="a4" class="preuzmite">Dužina videa</button>
+      </div>
+      <a
+        id="preuzeti"
+        href="Datoteke/Road trip.mp4"
+        alt="broken link"
+        download="formula 1.mp4"
+      >
+        <button class="preuzmite">
+          <i class="fa fa-download"></i>&nbsp;&nbsp;Preuzmite
+        </button>
+      </a>
+    </div>
+    <div class="muzika" id="muzika">
+      <h1 class="tekstmuzika">Poslušajte Shahmen Mark - Infinity Bass</h1>
+      <audio id="aud" controls>
+        <source src="Datoteke/SHAHMEN MARK.mp3" type="audio/mp3" />
+        <source src="Datoteke/SHAHMEN MARK.ogg" type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+      <div class="dugmad2">
+        <button id="b1" class="pp">Pusti</button
+        ><button id="b2" class="pp">Pauziraj</button
+        ><button id="b3" class="pp">Zvuk na 50% ili 100%</button
+        ><button id="b4" class="pp">Dužina</button>
+      </div>
+      <a
+        href="Datoteke/SHAHMEN MARK.mp3"
+        alt="broken link"
+        download="SHAHMEN MARK.mp3"
+      >
+        <button class="preuzmite">
+          <i class="fa fa-download"></i>&nbsp;&nbsp;Preuzmite
+        </button>
+      </a>
+    </div>
+  </div>
 
-<div class="gadgeti">
-	<div class="menjanjepozadine" id="poz">
-		<h1 class="pozadinatekst">Promenite boju pozadine</h1>
-	<select id="padajuci" name="menipadajuci" class="padajucimeni">
-     	<option disabled selected>Izaberite pozadinu</option>
-     	<option  value="1">Gradijent narandžasta</option>
-     	<option  value="2">Gradijent crvena</option>
-     	<option value="3">Gradijent žuta</option>
-     	<option value="4">Gradijent plava</option>
-    </select>
-</div>
-<div class="menjanjeborder" id="bor">
-		<h1 class="granicetekst">Promenite debljinu ivica</h1>
-<input id="broj" class="broj" type="number" name="granice" value="0" min="0" max="5">
-<p class="o5">od 0 do 5</p>
-<p id="demo"></p>
-</div>
-<div class="menjanjevidea" id="vd">
-		<h1 class="videopromenatekst">Pogledajte drugi video</h1>
-		<button id="najmom" class="promeni"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Najbolji momenti 1</button>
-		<button id="najmom2" class="promeni"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Najbolji momenti 2</button>
-		<button id="top10" class="promeni"><i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Top 10</button>
-</div>
-</div>
+  <div class="gadgeti">
+    <div class="menjanjepozadine" id="poz">
+      <h1 class="pozadinatekst">Promenite boju pozadine</h1>
+      <select id="padajuci" name="menipadajuci" class="padajucimeni">
+        <option disabled selected>Izaberite pozadinu</option>
+        <option value="1">Gradijent narandžasta</option>
+        <option value="2">Gradijent crvena</option>
+        <option value="3">Gradijent žuta</option>
+        <option value="4">Gradijent plava</option>
+      </select>
+    </div>
+    <div class="menjanjeborder" id="bor">
+      <h1 class="granicetekst">Promenite debljinu ivica</h1>
+      <input
+        id="broj"
+        class="broj"
+        type="number"
+        name="granice"
+        value="0"
+        min="0"
+        max="5"
+      />
+      <p class="o5">od 0 do 5</p>
+      <p id="demo"></p>
+    </div>
+    <div class="menjanjevidea" id="vd">
+      <h1 class="videopromenatekst">Pogledajte drugi video</h1>
+      <button id="najmom" class="promeni">
+        <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Najbolji momenti 1
+      </button>
+      <button id="najmom2" class="promeni">
+        <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Najbolji momenti 2
+      </button>
+      <button id="top10" class="promeni">
+        <i class="fa fa-angle-double-right"></i>&nbsp;&nbsp;Top 10
+      </button>
+    </div>
+  </div>
 </div>
 
 <footer class="futer">
-	<p class="identifikacija"><i class="fa fa-cubes"></i> Boško Marković 078/2016</p>
-	<p class="prava"><i class="fa fa-copyright"></i> Sva prava zadržana.</p>
+  <p class="identifikacija">
+    <i class="fa fa-cubes"></i> Boško Marković 078/2016
+  </p>
+  <p class="prava"><i class="fa fa-copyright"></i> Sva prava zadržana.</p>
 </footer>
