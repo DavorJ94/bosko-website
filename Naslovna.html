@@ -1,103 +1,178 @@
 <!DOCTYPE html>
 <head>
-	<title>Naslovna</title>
+  <title>Naslovna</title>
 
- <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.5.min.css">
- <link href="CSS/Naslovna.css" rel="stylesheet" type="text/css">
-<script src="Javascript/Naslovna.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-	<link rel="shortcut icon" type="image/png" href="Slike/logo-home.png" >
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.5.min.css"
+  />
+  <link href="CSS/Naslovna.css" rel="stylesheet" type="text/css" />
+  <script src="Javascript/Naslovna.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+  />
+  <link rel="shortcut icon" type="image/png" href="Slike/logo-home.png" />
 </head>
 
 <body>
-<div class="navigacija">
-	<a href="Naslovna.html" class="logo-vrh"><img src="Slike/14.png" class="logo-top" alt="logo"></a>
-	<ul class="header-list1" id="navbar">
-		<li><a href="Naslovna.html" class="items1">Naslovna</a></li>
-		<li><a href="O meni.html" class="items1">O meni</a></li>
-		<li><a href="Galerija.html" class="items1">Galerija</a></li>
-		<li><a href="Medija.html" class="items1">Medija</a></li>
-		<li><a href="Seminarski.html" class="items1">Seminarski</a></li>
-		<li><a href="Kontakt.html" class="items1">Kontakt</a></li>
-		</ul>
-</div>
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="7000"> 
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="items2" class="active"></li>
-			<li data-target="#myCarousel" class="items2" data-slide-to="1"></li>
-				<li data-target="#myCarousel" class="items2" data-slide-to="2"></li>
-	</ol>
-<div class="carousel-inner" role="listbox">
-	<!-- Prvi slajd -->
-	<div class="item active" id="prvi-slajd">
-			<div class="animated zoomIn">
-		
-			<h1 class="vrh-teksta">Dobrodošli na moju<br> web stranicu</h1>
-			<h2 class="drugi-nivo">Pročitajte više o meni ili posetite web prodavnicu<br> pomoću linkova ispod</h2>
-			<form class="forma-btn" action="O meni.html">
-			<button class="dugme1" type="submit"  name="o_meni" value="O meni">O meni</button>
-		</form>
-		<form class="forma-btn" target="_blank" action="https://autodelovimb.wixsite.com/autodelovimb?fbclid=IwAR06U6FywBH12UlLwX3l1ICQO6p603mGFB11IT1HP11kqAndP7JT_bJ0XWo">
-			<button class="dugme1" type="submit"  name="Galerija" value="Galerija">Web prodavnica</button>
-		</form>
-		</div>
-</div>
+  <div class="navigacija">
+    <a href="Naslovna.html" class="logo-vrh"
+      ><img src="Slike/14.png" class="logo-top" alt="logo"
+    /></a>
+    <ul class="header-list1" id="navbar">
+      <li><a href="Naslovna.html" class="items1">Naslovna</a></li>
+      <li><a href="O meni.html" class="items1">O meni</a></li>
+      <li><a href="Galerija.html" class="items1">Galerija</a></li>
+      <li><a href="Medija.html" class="items1">Medija</a></li>
+      <li><a href="Seminarski.html" class="items1">Seminarski</a></li>
+      <li><a href="Kontakt.html" class="items1">Kontakt</a></li>
+    </ul>
+  </div>
+  <div
+    id="myCarousel"
+    class="carousel slide"
+    data-ride="carousel"
+    data-interval="7000"
+  >
+    <ol class="carousel-indicators">
+      <li
+        data-target="#myCarousel"
+        data-slide-to="0"
+        class="items2"
+        class="active"
+      ></li>
+      <li data-target="#myCarousel" class="items2" data-slide-to="1"></li>
+      <li data-target="#myCarousel" class="items2" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Prvi slajd -->
+      <div class="item active" id="prvi-slajd">
+        <div class="animated zoomIn">
+          <h1 class="vrh-teksta">
+            Dobrodošli na moju<br />
+            web stranicu
+          </h1>
+          <h2 class="drugi-nivo">
+            Pročitajte više o meni ili posetite web prodavnicu<br />
+            pomoću linkova ispod
+          </h2>
+          <form class="forma-btn" action="O meni.html">
+            <button class="dugme1" type="submit" name="o_meni" value="O meni">
+              O meni
+            </button>
+          </form>
+          <form
+            class="forma-btn"
+            target="_blank"
+            action="https://autodelovimb.wixsite.com/autodelovimb?fbclid=IwAR06U6FywBH12UlLwX3l1ICQO6p603mGFB11IT1HP11kqAndP7JT_bJ0XWo"
+          >
+            <button
+              class="dugme1"
+              type="submit"
+              name="Galerija"
+              value="Galerija"
+            >
+              Web prodavnica
+            </button>
+          </form>
+        </div>
+      </div>
 
+      <!-- Drugi slajd-->
+      <div class="item" id="drugi-slajd" data-interval="9000">
+        <div class="animated fadeInRightBig tro">
+          <div class="sadrzaj2">
+            <h1 class="vrh-teksta2">Pogledajte video</h1>
+            <h2 class="drugi-nivo2">
+              Ukoliko želite, možete pogledati jednu trku iz formule 1<br />
+              koja je održana 2017. godine
+            </h2>
+            <a
+              class="forma-btn2"
+              href="https://www.youtube.com/watch?v=1LOPzsVsaA0"
+              target="_blank"
+            >
+              <button class="dugme2" type="submit" name="o_meni" value="O meni">
+                Pogledajte <i class="fa fa-chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="animated fadeInUpBig tro2">
+          <div class="sadrzaj3">
+            <h2 class="drugi-nivo3">
+              Takođe, možete pročitati o 16 neverovatnih činjenica koje
+              karakterišu formulu 1
+            </h2>
+            <a
+              class="forma1-btn3"
+              href="https://mydriftfun.com/16-amazing-facts-about-formula-1/"
+              target="_blank"
+            >
+              <button class="dugme2" type="submit" name="o_meni" value="O meni">
+                Pročitajte više <i class="fa fa-chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
 
+      <!-- Treci slajd -->
+      <div class="item" id="treci-slajd" data-interval="9000">
+        <div class="animated fadeInLeftBig tro">
+          <div class="sadrzaj4">
+            <h1 class="vrh-teksta3">Kontakt i seminarski</h1>
+            <h2 class="drugi-nivo4">
+              Ukoliko želite da me kontaktirate ili da pogledate seminarski, to
+              možete učiniti pomoću linkova ispod
+            </h2>
+            <form class="forma3-btn4" action="Seminarski.html">
+              <button
+                class="dugme3"
+                type="submit"
+                name="Seminarski"
+                value="Seminarski"
+              >
+                Seminarski
+              </button>
+            </form>
+            <form class="forma3-btn4" action="Kontakt.html">
+              <button
+                class="dugme3"
+                type="submit"
+                id="kontakt"
+                name="Kontakt"
+                value="Kontakt"
+              >
+                Kontakt
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
-	<!-- Drugi slajd-->
-	<div class="item" id="drugi-slajd" data-interval="9000">
-		<div class="animated fadeInRightBig tro">
-		<div class="sadrzaj2">
-			<h1 class="vrh-teksta2">Pogledajte video</h1>
-			<h2 class="drugi-nivo2">Ukoliko želite, možete pogledati jednu trku iz formule 1<br> koja je održana 2017. godine</h2>
-			<a class="forma-btn2" href="https://www.youtube.com/watch?v=1LOPzsVsaA0" target="_blank" >
-			<button class="dugme2" type="submit"  name="o_meni" value="O meni">Pogledajte		<i class="fa fa-chevron-right"></i></button>
-		</a>
-		</div>
-		</div>
-		<div class="animated fadeInUpBig tro2">
-		<div class="sadrzaj3">
-			
-			<h2 class="drugi-nivo3">Takođe, možete pročitati o 16 neverovatnih činjenica koje karakterišu formulu 1</h2>
-			<a class="forma1-btn3" href="https://mydriftfun.com/16-amazing-facts-about-formula-1/" target='_blank' >
-			<button class="dugme2" type="submit"  name="o_meni" value="O meni">Pročitajte više   <i class="fa fa-chevron-right"></i>  </button>
-		</a>
-		</div>
-		</div>
-	</div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"
+        ><span class="glyphicon glyphicon-chevron-left"></span
+      ></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"
+        ><span class="glyphicon glyphicon-chevron-right"></span
+      ></a>
+    </div>
+  </div>
 
-	
-
-<!-- Treci slajd -->
-		<div class="item" id="treci-slajd" data-interval="9000">
-			<div class="animated fadeInLeftBig tro">
-		<div class="sadrzaj4">
-			<h1 class="vrh-teksta3">Kontakt i seminarski</h1>
-			<h2 class="drugi-nivo4">Ukoliko želite da me kontaktirate ili da pogledate seminarski, to možete učiniti pomoću linkova ispod</h2>
-			<form class="forma3-btn4" action="Seminarski.html">
-			<button class="dugme3" type="submit"  name="Seminarski" value="Seminarski">Seminarski</button>
-		</form>
-			<form class="forma3-btn4" action="Kontakt.html">
-			<button class="dugme3" type="submit" id="kontakt" name="Kontakt" value="Kontakt">Kontakt</button>
-		</form>
-			</div>
-		</div>
-		</div>
-
-<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
-</div>
-
-<footer class="futer">
-	<p class="identifikacija"><i class="fa fa-cubes"></i> Boško Marković 078/2016</p>
-	<p class="prava"><i class="fa fa-copyright"></i> Sva prava zadržana.</p>
-</footer>
+  <footer class="futer">
+    <p class="identifikacija">
+      <i class="fa fa-cubes"></i> Boško Marković 078/2016
+    </p>
+    <p class="prava"><i class="fa fa-copyright"></i> Sva prava zadržana.</p>
+  </footer>
 </body>
-
